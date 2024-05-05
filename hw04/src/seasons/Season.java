@@ -2,7 +2,7 @@ package seasons;
 
 import java.time.Month;
 
-enum Season {
+public enum Season {
 
     SPRING("Весна", Month.MARCH, Month.APRIL, Month.MAY),
     SUMMER("Лето", Month.JUNE, Month.JULY, Month.AUGUST),
