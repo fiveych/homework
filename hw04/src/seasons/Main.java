@@ -12,7 +12,7 @@ public class Main {
             System.out.println(month);
         }
 
-        System.out.println(Season.AUTUMN.containsMonth(5));
-        System.out.println(Season.AUTUMN.containsMonth(9));
+        System.out.println(Season.AUTUMN.hasMonth(5));
+        System.out.println(Season.AUTUMN.hasMonth(9));
     }
 }

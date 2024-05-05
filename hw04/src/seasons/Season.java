@@ -25,10 +25,10 @@ public enum Season {
         return months;
     }
 
-    public boolean containsMonth(int monthNumber) {
+    public boolean hasMonth(int monthOrdinal) {
 
         for (Month month : months) {
-            if (month.ordinal() + 1 == monthNumber) {
+            if (month.ordinal() + 1 == monthOrdinal) {
                 return true;
             }
         }
