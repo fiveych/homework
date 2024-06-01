@@ -17,8 +17,8 @@ import java.time.Duration;
 
 public class SomeTest {
 
-    private static final String URL = "https://web-cert.evo.rosbank.ru";
-    private static final String LOGIN = "503818678";
+    private static final String URL = "";
+    private static final String LOGIN = "";
     private static final int TIMEOUT = 10;
 
     private WebDriver driver;
